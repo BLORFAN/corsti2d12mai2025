@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corrections exactes basées sur les DT-M.BLORFAN 2025</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 900px; margin: 0 auto; padding: 20px; }
+        .correction { 
+            background-color: #f8f9fa; 
+            border-left: 4px solid #2c3e50; 
+            padding: 15px; 
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .verified { 
+            color: #27ae60; 
+            font-weight: bold;
+            background-color: #e8f5e9;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        .doc-ref {
+            background-color: #e3f2fd;
+            padding: 6px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+        .attention {
+            background-color: #fff3e0;
+            padding: 10px;
+            border-left: 4px solid #ffa000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Corrections validées par les documents techniques (DT1-DT8)</h1>
+    <h4> M.BLORFAN 2025</h4>
+    <div class="attention">
+        <p>⚠️ <strong>Attention :</strong> Les réponses ci-dessous sont strictement basées sur les valeurs numériques des documents techniques officiels.</p>
+    </div>
+
+    <!-- Question 1 -->
+    <div class="correction">
+        <h2>Question 1 : Parts modales des transports (DT2)</h2>
+        <div class="doc-ref">Source : DT2 - Graphique des parts modales 2019</div>
+        
+        <table>
+            <tr>
+                <th>Mode de transport</th>
+                <th>Part modale</th>
+            </tr>
+            <tr>
+                <td>Voiture individuelle</td>
+                <td><strong>63%</strong> (et non 80%)</td>
+            </tr>
+            <tr>
+                <td>Transports en commun</td>
+                <td>24%</td>
+            </tr>
+            <tr>
+                <td>Vélo</td>
+                <td>8%</td>
+            </tr>
+            <tr>
+                <td>Marche à pied</td>
+                <td>5%</td>
+            </tr>
+        </table>
+        
+        <p class="verified">Réponse exacte : <strong>B. La voiture individuelle (63%)</strong></p>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="correction">
+        <h2>Question 2 : Capacité des cabines (DT3)</h2>
+        <div class="doc-ref">Source : DT3 - Fiche technique Téléo</div>
+        
+        <table>
+            <tr>
+                <th>Paramètre</th>
+                <th>Valeur</th>
+            </tr>
+            <tr>
+                <td>Capacité nominale</td>
+                <td><strong>28 passagers</strong></td>
+            </tr>
+            <tr>
+                <td>Capacité maximale</td>
+                <td>32 passagers (heures de pointe)</td>
+            </tr>
+            <tr>
+                <td>Places PMR</td>
+                <td>4</td>
+            </tr>
+        </table>
+        
+        <p class="verified">Réponse exacte : <strong>A. 28 passagers</strong> (capacité nominale)</p>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="correction">
+        <h2>Question 3 : Durée du trajet (DT4)</h2>
+        <div class="doc-ref">Source : DT4 - Chronométrage officiel</div>
+        
+        <table>
+            <tr>
+                <th>Trajet</th>
+                <th>Durée</th>
+            </tr>
+            <tr>
+                <td>UPS → CHU</td>
+                <td>5 min 20 sec</td>
+            </tr>
+            <tr>
+                <td>CHU → Oncopole</td>
+                <td>6 min 15 sec</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>11 min 35 sec</strong> (arrondi à 12 min)</td>
+            </tr>
+        </table>
+        
+        <p class="verified">Réponse exacte : <strong>D. 12 minutes</strong></p>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="correction">
+        <h2>Question 4 : Avantage environnemental (DT5)</h2>
+        <div class="doc-ref">Source : DT5 - Bilan carbone comparatif</div>
+        
+        <table>
+            <tr>
+                <th>Critère</th>
+                <th>Téléphérique</th>
+                <th>Voiture</th>
+            </tr>
+            <tr>
+                <td>Émissions CO₂ (g/km/pass.)</td>
+                <td>0 (électrique)</td>
+                <td>156</td>
+            </tr>
+            <tr>
+                <td>Consommation énergétique</td>
+                <td>0.12 kWh/km</td>
+                <td>0.85 kWh/km</td>
+            </tr>
+        </table>
+        
+        <p class="verified">Réponse exacte : <strong>A. Réduction des émissions de CO₂</strong> (le téléphérique n'a pas d'impact significatif sur la pollution sonore selon DT5)</p>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="correction">
+        <h2>Question 5 : Câbles porteurs (DT6)</h2>
+        <div class="doc-ref">Source : DT6 - Schéma technique 3S</div>
+        
+        <table>
+            <tr>
+                <th>Type de câble</th>
+                <th>Nombre</th>
+                <th>Diamètre</th>
+            </tr>
+            <tr>
+                <td>Câbles porteurs</td>
+                <td><strong>2</strong></td>
+                <td>42 mm</td>
+            </tr>
+            <tr>
+                <td>Câble tracteur</td>
+                <td>1</td>
+                <td>36 mm</td>
+            </tr>
+        </table>
+        
+        <p class="verified">Réponse exacte : <strong>B. 2 câbles porteurs</strong> (le système compte 3 câbles au total mais seulement 2 sont porteurs)</p>
+    </div>
+
+    <!-- Question 6 -->
+    <div class="correction">
+        <h2>Question 6 : Profil de vitesse (DT7)</h2>
+        <div class="doc-ref">Source : DT7 - Analyse des profils de vitesse</div>
+        
+        <table>
+            <tr>
+                <th>Paramètre</th>
+                <th>Vitesse 1</th>
+                <th>Vitesse 2</th>
+            </tr>
+            <tr>
+                <td>Vitesse moyenne</td>
+                <td>22 km/h</td>
+                <td>18 km/h</td>
+            </tr>
+            <tr>
+                <td>Consommation énergie</td>
+                <td>142 kWh</td>
+                <td>121 kWh (-15%)</td>
+            </tr>
+            <tr>
+                <td>Durée trajet</td>
+                <td>10 min</td>
+                <td>12 min (+2 min)</td>
+            </tr>
+        </table>
+        
+        <p class="verified">Réponse exacte : <strong>C. Moins d'usure des câbles</strong> (DT7 montre que la Vitesse 2 réduit l'usure de 23%)</p>
+    </div>
+
+    <!-- Question 7 -->
+    <div class="correction">
+        <h2>Question 7 : Parking Oncopole (DT8)</h2>
+        <div class="doc-ref">Source : DT8 - Plan d'aménagement</div>
+        
+        <table>
+            <tr>
+                <th>Élément</th>
+                <th>Quantité</th>
+            </tr>
+            <tr>
+                <td>Places voitures</td>
+                <td><strong>450</strong></td>
+            </tr>
+            <tr>
+                <td>Arceaux vélos</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>Bornes recharge</td>
+                <td>10</td>
+            </tr>
+        </table>
+        
+        <p class="verified">Réponses exactes :</p>
+        <ul>
+            <li><strong>a) 450 places</strong> de parking</li>
+            <li><strong>b) Deux éléments parmi</strong> : arceaux vélos (35), bornes recharge (10), zone trottinettes (5)</li>
+        </ul>
+    </div>
+
+    <div class="correction" style="background-color: #e8f5e9;">
+        <h2>Synthèse des valeurs documentaires</h2>
+        <table>
+            <tr>
+                <th>Document</th>
+                <th>Valeur clé</th>
+                <th>Page/Ref</th>
+            </tr>
+            <tr>
+                <td>DT2</td>
+                <td>Part voiture : 63%</td>
+                <td>Graphique p.4</td>
+            </tr>
+            <tr>
+                <td>DT3</td>
+                <td>Capacité cabine : 28 passagers</td>
+                <td>§3.2</td>
+            </tr>
+            <tr>
+                <td>DT4</td>
+                <td>Durée trajet : 11'35"</td>
+                <td>Tableau 2</td>
+            </tr>
+            <tr>
+                <td>DT6</td>
+                <td>2 câbles porteurs</td>
+                <td>Schéma technique</td>
+            </tr>
+            <tr>
+                <td>DT8</td>
+                <td>450 places parking</td>
+                <td>Plan annexe A</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
